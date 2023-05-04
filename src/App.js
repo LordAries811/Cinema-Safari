@@ -38,11 +38,12 @@ const App = () => {
 
     return(
         <div className="app">
-            <h1>YourMovies</h1>
+            <h1>CinemaSafari</h1>
 
             <div className="search">
                 <input
                     placeholder="Let's Binge Watch"
+                    sx={{color: "#0e0d0d"}}
                     value={searchforMovie}//we will use state on it later to make it work dynamically
                     onChange={(e)=>setSeachForMovie(e.target.value)}
 
